@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body 
+{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #301A4B;
+    overflow-x: hidden;
+}
+.Search 
+{
+    width: 60%;
+    height: 70px;
+    background-color: #8f47e79f;
+    margin: 10px auto;
+    display: flex;
+    border-radius: 20px;
+
+}
+.Search input{
+    background-color: transparent;
+     border: none; 
+     outline: none; 
+    flex: 1;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+::placeholder
+{
+    color: rgb(255, 255, 255);
+}
+
+.Search button 
+{
+    background-color: orangered;
+    border: none; 
+     outline: none;
+     padding: 0px 20px;
+     font-size: 1.5rem;
+     cursor: pointer;
+    font-weight: 500;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+h1 
+{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px;
+}
+.loadmore 
+{
+    background-color: orangered;
+    border: none; 
+     outline: none;
+     padding: 10px 20px;
+     font-size: 1.5rem;
+     cursor: pointer;
+    font-weight: 500;
+    display: block;
+    border-radius: 20px;
+    margin-inline: auto;
+    color: rgb(0, 0, 0);
+    display: none;
+    margin-top: 20px;
+}
+.resposnceimages 
+{
+    margin-top: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   min-height: 700px; 
+   gap: 30px;
+   margin-left: 30px;
+}
+.cssimg 
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.dblock
+{
+    display: block;
+}
